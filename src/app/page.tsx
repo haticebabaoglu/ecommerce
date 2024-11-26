@@ -1,8 +1,8 @@
-import { Icons } from '@/components/Icons'
+// import { Icons } from '@/components/Icons'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import Phone from '@/components/Phone'
-import { Reviews } from '@/components/Reviews'
-import { buttonVariants } from '@/components/ui/button'
+// import { Reviews } from '@/components/Reviews'
+// import { buttonVariants } from '@/components/ui/button'  
 import { ArrowRight, Check, Star } from 'lucide-react'
 import Link from 'next/link'
 
@@ -14,7 +14,7 @@ export default function Home() {
           <div className='col-span-2 px-6 lg:px-0 lg:pt-4'>
             <div className='relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start'>
               <div className='absolute w-28 left-0 -top-20 hidden lg:block'>
-                {/* i forgot this div right here in the video, it's purely visual gradient and looks nice */}
+             
                 <div className='absolute inset-x-0 bottom-0 bg-gradient-to-t via-slate-50/50 from-slate-50 h-28' />
                 <img src='/snake-1.png' className='w-full' />
               </div>
