@@ -9,7 +9,7 @@ interface PhoneProps extends HTMLAttributes<HTMLDivElement> {
  
 const Phone = ({ imgSrc, className, dark = false, ...props }: PhoneProps) => {
   return ( 
-    <div
+    <div 
       className={cn(
         'relative pointer-events-none z-50 overflow-hidden',
         className
