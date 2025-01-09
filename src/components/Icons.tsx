@@ -6,7 +6,7 @@ export const Icons = {
       <g
         stroke='currentColor' 
         strokeWidth='7'
-        fill='none'
+        fill='none' 
         fillRule='evenodd'
         strokeLinecap='round'
         strokeLinejoin='round'>
