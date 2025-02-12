@@ -67,4 +67,5 @@ const PhonePreview = ({
     </AspectRatio>
   )
 }
+
 export default PhonePreview
